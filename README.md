@@ -31,9 +31,9 @@ I design and build software across the entire abstraction stack—from **bare-me
 
 ### Technical Arsenal
 
-* **Languages:** Rust, C/C++17, Python, x86 Assembly (NASM), SQL, Bash
+* **Languages:** Rust, C/C++, Python, x86 Assembly (NASM), SQL, Bash
 * **Distributed & Data:** Apache Kafka, Debezium (CDC), Raft Consensus, Redis, PostgreSQL (PgBouncer)
-* **Systems & Low-Level:** SIMD (AVX2), Concurrency (Tokio/pthreads), Linux Internals, OpenGL 3.3 Core
+* **Systems & Low-Level:** SIMD (AVX2), Concurrency (Tokio/pthreads), Linux Internals, OpenGL
 * **DevOps & Tooling:** Docker, HashiCorp Vault, Prometheus, Grafana, Loki, Git, Make
 
 ---
