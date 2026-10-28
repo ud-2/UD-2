@@ -11,11 +11,11 @@
 
 ### About Me
 
-I design and build software across the entire abstraction stack—from **bare-metal hardware primitives** (CPU registers, custom schedulers, SIMD) to **production-grade distributed systems** (Kafka, Raft consensus, event-driven pipelines).
+I design and build software across the entire abstraction stack, from **bare-metal hardware primitives** (CPU registers, custom schedulers, SIMD) to **production-grade distributed systems** (Kafka, Raft consensus, event-driven pipelines).
 
 * **Core Focus:** Distributed consensus, high-performance data processing, and hardware-aware programming.
 * **Systems & Backend:** Designing fault-tolerant microservices, asynchronous pipelines, and low-latency engines.
-* **Engineering Philosophy:** Writing mechanical sympathy code, optimizations, and rock-solid systems that don't fail silently.
+* **Engineering Philosophy:** Writing mechanical sympathy code, resource optimizations, and rock-solid systems that don't fail silently.
 
 ---
 
@@ -24,7 +24,7 @@ I design and build software across the entire abstraction stack—from **bare-me
 | Project | Tech Stack | Highlights |
 | :--- | :--- | :--- |
 | **[VectoRaft](https://github.com/ud-2/vectoraft)** | `Rust` `gRPC` `Tokio` | **Distributed, fault-tolerant vector database** built from scratch. Implements Raft consensus with <200ms failover and SIMD AVX2-accelerated similarity search (4.4x speedup). |
-| **[SQLWeaver](https://github.com/ud-2/sqlweaver)** | `C++20` `ANTLR4` `CMake` | **Offline static analyzer & data lineage engine for Oracle PL/SQL**. Extracts fine-grained column/table I/O graphs and enforces DevSecOps CI/CD quality gates (blocking unconstrained mutations and SQL injections). |
+| **[SQLWeaver](https://github.com/ud-2/sqlweaver)** | `C++20` `ANTLR4` `CMake` | **Offline static analyzer & data lineage engine for Oracle PL/SQL**. Extracts fine-grained table I/O graphs and enforces DevSecOps CI/CD quality gates (blocking unconstrained mutations and SQL injections). |
 | **[Sonoderm](https://github.com/ud-2/sonoderm)** | `C++17` `OpenGL` `GLSL` | **Procedural 3D audio-reactive engine** using SDF raymarching (no polygonal meshes). Features Cooley-Tukey FFT signal processing and ping-pong FBO temporal memory. |
 | **[x86 Bare-Metal Kernel](https://github.com/ud-2/lite-os_with_bf-interpreter)** | `C` `x86 ASM (NASM)` | **Minimalist 32-bit operating system kernel** running without a host OS. Implements bootloader, preemptive scheduler, IDT interrupt handling, and hardware drivers. |
 
